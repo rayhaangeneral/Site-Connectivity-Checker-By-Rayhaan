@@ -32,7 +32,7 @@ def toggle_dark_mode():
         root.config(bg="black")
         entry.config(fg="white", bg="black")
         result_label.config(fg="white", bg="black")
-        check_button.config(fg="white", bg="black")
+        check_button.config(fg="black", bg="black")
         dark_mode_button.config(text="Light mode")
     else:
         root.config(bg="white")
@@ -66,6 +66,10 @@ result_label.pack()
 # Create a button to toggle dark mode
 dark_mode_button = tk.Button(root, text="Dark mode", command=toggle_dark_mode, bg="white", fg="black")
 dark_mode_button.pack()
+
+# Add the authors' names in the right bottom corner of the window
+author_label = tk.Label(root, text="Authors: Rayhaan General", bg="black", fg="white", font=("Arial", 8))
+author_label.pack(side="bottom", anchor="se")
 
 # Start the main loop
 root.mainloop()
