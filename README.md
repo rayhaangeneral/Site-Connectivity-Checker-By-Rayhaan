@@ -1,7 +1,8 @@
-
-# Site Connectivity Checker By Rayhaan
+ # Site Connectivity Checker By Rayhaan
 
 A Python script that checks the connectivity of a website using the socket library. The script has a graphical user interface (GUI) that allows users to input the website address and displays the result of the connectivity check. The GUI also includes a dark mode option.
+</br></br><a href="https://bit.ly/41fp7BP">Check out Synopsis</a> 
+
 ## Demo
 
 <a href="https://www.youtube.com/watch?v=JDL_Vn4VT54" target="_blank">
